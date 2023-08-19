@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=REM:wght@500&family=Rancho&family=Roboto+Slab:wght@500&family=Ubuntu&display=swap');
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  text-align: center;
+  transform: translate(50%);
+  border: 2px solid black;
+  width: 50%;
+  height: 50%;
+  border-radius: 40px;
+  background-color: cadetblue;
+}
+
+h1 {
+  text-align: center;
+  transform: translateY(45%);
+}
+
+.row {
+  padding: 10px 5px;
+}
+
+.button {
+  padding: 20px 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.input {
+  padding: 15px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  /* scale:1.5; */
+  font-weight: 800px;
+}
